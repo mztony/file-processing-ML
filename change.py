@@ -7,6 +7,6 @@ def add_prefix_files(mark):
                     os.rename(os.path.join(path,old_name),os.path.join(path,mark+old_name))  #rename
                     print (old_name,"has been renamed successfully! New name is: ",mark+old_name)  #rename success
 if __name__ == '__main__': 
-        path = r'/home/mozhe/test/fire_hydrant/JPEGImages/'   #运行程序前，记得修改主文件夹路径！
+        path = r'/home/mozhe/test/fire_hydrant/JPEGImages/'   #主文件夹路径
         add_prefix_files('2007_')
         
