@@ -7,7 +7,7 @@ def dirList(pathlist):
 def saveList(pathlist):
     for filename in pathlist:
         with open("filename.txt", "a") as f:
-            f.write(filename.split(".")[0] + "\n")#删掉后缀
+            f.write(filename.split(".")[0] + "\n")#删掉文件类别后缀
     print('Success!')
 
 if __name__ == '__main__': 
