@@ -2,8 +2,6 @@
 import os
 import os.path
 import xml.dom.minidom
- 
-#path="../xml/"
 path='/home/mozhe/test/fire_hydrant/Annotations/'
 files=os.listdir(path) 
 for xmlFile in files:
