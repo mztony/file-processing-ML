@@ -6,7 +6,6 @@ import xml.dom.minidom
 #path="../xml/"
 path='/home/mozhe/test/fire_hydrant/Annotations/'
 files=os.listdir(path) 
-s=[]
 for xmlFile in files:
 	if not os.path.isdir(xmlFile): 
 		dom=xml.dom.minidom.parse(os.path.join(path,xmlFile))
